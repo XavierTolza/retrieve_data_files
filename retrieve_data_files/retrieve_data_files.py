@@ -13,7 +13,8 @@ def retrieve_data_files(module, filename, subpath="data", current_folder="./"):
         join(home, ".local", module)
     ]
     for folder in search_folders:
-        file = join(folder, subpath, filename)
-        if isfile(file):
-            return file
+        for file in [join(folder, subpath, filename),
+                     join(folder, filename)]:
+            if isfile(file):
+                return file
     raise FileNotFoundError("Cannot find data file %s" % filename)

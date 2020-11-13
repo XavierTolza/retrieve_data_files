@@ -7,7 +7,7 @@ info = dict(
     # La liste des dossiers contenant les modules python (généralement un seul)
     name="retrieve_data_files",
     # Le nom du projet python (généralement le nom du dossier unique où est stocké le projet)
-    version='0.1',  # La version du code
+    version='0.2',  # La version du code
     description='Retrieve setup.py data_files ',
     # La description du paquet
     author='xavier TOLZA',  # Auteur du paquet
