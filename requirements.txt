@@ -1,0 +1,6 @@
+# Entrez ici vos requirements
+# Soit au format pip
+
+# Soit au format git :
+# git+https://github.com/<url>/<project_name>.git#egg=<project_name>
+# git+ssh://git@bitbucket.org/<url>/<project_name>.git#egg=<project_name>
